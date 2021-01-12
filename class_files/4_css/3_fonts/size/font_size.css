@@ -1,0 +1,15 @@
+/* regular size */
+article {
+    font-size: 1em;
+}
+
+/* double size */
+footer {
+    font-size: 2em;
+}
+
+/* half size */
+span {
+    font-size: 0.5em;
+}
+

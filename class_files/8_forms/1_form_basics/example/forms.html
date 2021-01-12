@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms examples</title>
+    </head>
+    <body>
+        <h1>Questionnaire</h1>
+        <form>
+            <div class="form-field">
+                <label for="first">First name:</label>
+                <input type="text" name="first" id="first">
+            </div>
+            <div class="form-field">
+                <label for="middle">Middle name:</label>
+                <input type="text" name="middle" id="middle">
+            </div>
+            <div class="form-field">
+                <label for="last">Last name:</label>
+                <input type="text" name="last" id="last">
+            </div>
+
+            <div class="form-field">
+                <label>Gender</label>
+                <input type="radio" name="gender"
+                       value="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender"
+                       value="female" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender"
+                       value="other" id="other">
+                <label for="other">Other (unspecified)</label>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

@@ -1,0 +1,11 @@
+
+/* space between groups of controls */
+div.form-field {
+    margin: 8px;
+}
+
+/* a fixed width for main labels */
+label:first-child {
+    width: 150px;
+    display: inline-block;
+}

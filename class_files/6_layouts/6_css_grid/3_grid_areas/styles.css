@@ -1,0 +1,69 @@
+html {
+    background: darkslategray;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+    background-color: beige;
+    border-left: 4px solid black;
+    border-right: 4px solid black;
+}
+
+img {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/* make sure floated images don't drop */
+article::after {
+    clear: both;
+    display: table;
+    content: "";
+}
+
+article, header, footer, aside {
+    border: 2px solid #637c56;
+    border-radius: 5px;
+    background-color: 2px solid #99bd83;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container {
+
+}
+
+header {
+
+}
+
+article#jewelry {
+
+}
+
+article#clocks {
+
+}
+
+article#clothes {
+
+}
+
+article#furniture {
+
+}
+
+article#books {
+
+}
+
+footer {
+
+}
+
+aside {
+
+}

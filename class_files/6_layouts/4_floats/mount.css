@@ -1,0 +1,36 @@
+body {
+    font-size: 0.8em;
+}
+
+img {
+    width: 150px;
+    margin: 6px;
+}
+
+h1 {
+    margin: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 5px;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+div {
+    padding: 4px;
+    margin: 4px;
+    background-color: #87bcbe;
+    border: 2px solid black;
+}
+
+article {
+    background-color: #d1dbe2;
+}
+
+img {
+    width: 100px;
+    margin: 6px;
+}

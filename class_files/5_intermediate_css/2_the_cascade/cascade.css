@@ -1,0 +1,29 @@
+/* the order of styles applied are from
+   top to bottom in a stylesheet */
+p {
+    color: yellowgreen;
+}
+
+p {
+    color: darkmagenta;
+}
+
+p {
+    color: #d19ee7;
+}
+
+/* the selectors can vary, but the rules
+   remain the same */
+
+/*
+p {
+    color: #0066ee;
+}
+
+body p {
+    color: crimson;
+}
+
+p#main {
+    color: darkgreen;
+}*/

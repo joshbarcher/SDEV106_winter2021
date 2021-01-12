@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Forms examples</title>
+    </head>
+    <body>
+        <h1>Questionnaire</h1>
+        <form>
+            <div class="form-field">
+                <label for="first">First name:</label>
+                <input type="text" name="first" id="first">
+            </div>
+            <div class="form-field">
+                <label for="middle">Middle name:</label>
+                <input type="text" name="middle" id="middle">
+            </div>
+            <div class="form-field">
+                <label for="last">Last name:</label>
+                <input type="text" name="last" id="last">
+            </div>
+
+            <div class="form-field">
+                <label>Gender</label>
+                <input type="radio" name="gender"
+                       value="male" id="male">
+                <label for="male">Male</label>
+                <input type="radio" name="gender"
+                       value="female" id="female">
+                <label for="female">Female</label>
+                <input type="radio" name="gender"
+                       value="other" id="other">
+                <label for="other">Other (unspecified)</label>
+            </div>
+
+            <div class="form-field">
+                <label>How did you hear about us?</label>
+                <input type="checkbox" name="hear-about"
+                       value="newspaper" id="newspaper">
+                <label for="newspaper">Newspaper</label>
+                <input type="checkbox" name="hear-about"
+                       value="word-of-mouth" id="word-of-mouth">
+                <label for="word-of-mouth">Word of mouth</label>
+                <input type="checkbox" name="hear-about"
+                       value="advert" id="advert">
+                <label for="advert">Advertisement</label>
+            </div>
+
+            <div class="form-field">
+                <label for="services">What are you interested in?</label>
+                <select name="services" id="services">
+                    <option value="counseling">Counseling Services</option>
+                    <option value="newsletter">Weekly newsletter</option>
+                    <option value="employment">Job Positions</option>
+                </select>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>

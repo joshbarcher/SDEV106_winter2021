@@ -1,0 +1,13 @@
+html {
+    padding: 30px;
+}
+
+div {
+    border: 2px solid blue;
+    margin-bottom: 10px;
+}
+
+img {
+    border: 4px solid black;
+}
+

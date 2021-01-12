@@ -1,0 +1,38 @@
+body {
+    background-color: aliceblue;
+    padding: 15px;
+    padding-top: 0px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: lightblue;
+}
+
+article {
+    border-left: 1px solid darkblue;
+}
+
+section {
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+p {
+    border-radius: 5px;
+    margin: 6px;
+    margin-left: 20px;
+    padding: 4px 12px;
+    background-color: lightblue;
+}
+
+h2 {
+    margin: 4px;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 6px;
+}

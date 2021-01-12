@@ -1,0 +1,128 @@
+
+nav {
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+}
+
+nav > ul {
+    list-style: none;
+    height: 50px;
+    text-align: center;
+}
+
+nav > ul > li,
+.submenu li {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    margin: 0;
+}
+
+nav > ul > li > a, .submenu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 1.4em;
+    height: 50px;
+    line-height: 50px;
+}
+
+nav > ul > li > a:hover,
+.submenu a:hover {
+    background-color: #87bcbe;
+}
+
+main {
+    width: 560px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #f2b8cc;
+    border: 2px solid black;
+}
+
+main p {
+    font-size: 1.2em;
+    margin: 15px 0;
+}
+
+main p:first-child {
+    margin-top: 50px;
+}
+
+main p:last-child {
+    margin-bottom: 50px;
+}
+
+footer {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 15px;
+    font-size: 1.1em;
+}
+
+footer a {
+    color: #e8bcbc;
+    text-decoration: none;
+}
+
+/* hover menus */
+.menu {
+    /* choose anything but static */
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    background-color: black;
+    width: 150px;
+}
+
+.menu:hover .submenu {
+    display: block;
+}
+
+/* modal styles */
+
+#modal-cover {
+
+}
+
+#modal {
+    background-color: white;
+    color: black;
+    border: 1.5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 200px;
+    height: 120px;
+}
+
+#modal h1 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 6px 0;
+}
+
+#modal p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+#modal button {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 4px;
+    margin: 6px 0;
+}
+
+

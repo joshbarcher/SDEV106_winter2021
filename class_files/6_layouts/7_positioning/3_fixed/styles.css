@@ -1,0 +1,44 @@
+html {
+    background-color: #7a6c5d;
+}
+
+body {
+    width: 660px;
+    margin: 0 auto;
+    color: white;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+        "section1 section2"
+        "article  article";
+}
+
+section {
+    height: 200px;
+    background-color: #c8ad97;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+section:nth-of-type(1) { grid-area: section1; }
+section:nth-of-type(1) { grid-area: section2; }
+article { grid-area: article; }
+
+aside {
+    border: 2px solid white;
+    background-color: #ba6b6b;
+    color: white;
+    padding: 6px;
+    width: 150px;
+}
+
+aside p {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #e3b5b5;
+}

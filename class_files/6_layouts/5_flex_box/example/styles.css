@@ -1,0 +1,74 @@
+div h1 {
+    border-radius: 25px 25px 0 0;
+    padding: 10px;
+}
+
+div h1, div p {
+    padding: 10px 10px 10px 30px;
+    margin: 0;
+}
+
+div {
+    border-radius: 25px;
+    margin: 20px;
+    width: 300px;
+}
+
+#div1 h1 {
+    background-color: rgb(88, 87, 255);
+    color: rgb(241, 255, 241);
+}
+
+#div1 {
+    background-color: rgb(158, 158, 255);
+}
+
+#div2 h1 {
+    background-color: rgb(128, 128, 0);
+    color: rgb(241, 255, 241);
+}
+
+#div2 {
+    background-color: rgb(228, 228, 30);
+}
+
+#div3 h1 {
+    background-color: rgb(207, 66, 207);
+    color: rgb(241, 255, 241);
+}
+
+#div3 {
+    background-color: rgb(232, 156, 232);
+}
+
+#div4 h1 {
+    background-color: rgb(103, 160, 103);
+    color: rgb(241, 255, 241);
+}
+
+#div4 {
+    background-color: rgb(172, 204, 172);
+}
+
+#div4 h1 {
+    background-color: rgb(103, 160, 103);
+    color: rgb(241, 255, 241);
+}
+
+#div5 {
+    background-color: rgb(191, 191, 191);
+}
+
+#div5 h1 {
+    background-color: rgb(101, 101, 101);
+    color: rgb(241, 255, 241);
+}
+
+#div6 {
+    background-color: rgb(207,147,167);
+}
+
+#div6 h1 {
+    background-color: rgb(115,3,5);
+    color: rgb(241, 255, 241);
+}

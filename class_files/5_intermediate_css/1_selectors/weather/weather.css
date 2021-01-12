@@ -1,0 +1,14 @@
+p#sunny:hover {
+    background-color: #0066ee;
+    color: gold;
+}
+
+p#showers:hover {
+    background-color: darkblue;
+    color: cornflowerblue;
+}
+
+p#storms:hover {
+    background-color: #222222;
+    color: azure;
+}

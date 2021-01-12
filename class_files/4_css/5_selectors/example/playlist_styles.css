@@ -1,0 +1,16 @@
+header > nav {
+    background-color: beige;
+}
+
+section aside {
+    font-family: "Comic Sans MS";
+}
+
+section#play2 h1 {
+    color: sandybrown;
+}
+
+section.playbill {
+    border-top: 2px solid gray;
+}
+

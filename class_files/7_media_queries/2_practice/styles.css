@@ -1,0 +1,28 @@
+/* styles for all devices */
+body {
+    background-color: cornsilk;
+}
+
+h1 {
+    border-top: 2px solid rosybrown;
+    border-bottom: 2px solid rosybrown;
+    padding: 8px 4px;
+    font-family: Baskerville Old Face,serif;
+    font-size: 2.0em;
+    color: #8d5152;
+    line-height: 1.5em;
+}
+
+img {
+    display: block;
+    width: 30%;
+}
+
+p {
+    margin: 30px;
+}
+
+footer {
+    font-weight: bold;
+    text-align: center;
+}

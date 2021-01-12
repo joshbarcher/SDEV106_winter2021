@@ -1,0 +1,15 @@
+h1 {
+    font-size: 1.3em;
+}
+
+ol#album {
+    font-family: Garamond;
+}
+
+body ol {
+    font-family: Consolas;
+}
+
+ol {
+    font-family: Times New Roman;
+}

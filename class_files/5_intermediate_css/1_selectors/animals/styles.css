@@ -1,0 +1,12 @@
+section {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    padding: 8px;
+}
+
+img {
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 150px;
+}
