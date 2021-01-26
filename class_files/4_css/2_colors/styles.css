@@ -10,3 +10,25 @@ li {
 }
 
 /* your style definitions go here... */
+body {
+    background-color: #e38966
+}
+
+section {
+    background-color: beige;
+}
+
+h1 {
+    background-color: #016a60;
+    color: #f7eb00;
+}
+
+h2 {
+    background-color: #016a60;
+    color: #f8c6a7;
+}
+
+ul {
+    background-color: #a4ccee;
+}
+

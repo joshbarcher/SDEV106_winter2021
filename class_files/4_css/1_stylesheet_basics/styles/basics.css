@@ -1,0 +1,22 @@
+body {
+    background-color: cornsilk;
+    font-family: Arial;
+}
+
+p {
+    color: rgb(134, 130, 104);
+    border-left: 2px solid #6c1a1a;
+    padding-left: 10px;
+}
+
+h1 {
+    color: #2c5746;
+    text-decoration: underline;
+}
+
+img {
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin-left: 30px;
+}

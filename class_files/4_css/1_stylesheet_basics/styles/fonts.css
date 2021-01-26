@@ -1,0 +1,7 @@
+
+/* I want all paragraphs a little bigger */
+p {
+    font-size: 1.2em;
+    font-family: 'Palatino Linotype', 'Book Antiqua',
+                 Palatino, serif;
+}
