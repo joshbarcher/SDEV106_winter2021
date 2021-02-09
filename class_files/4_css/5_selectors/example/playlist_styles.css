@@ -1,16 +1,85 @@
-header > nav {
-    background-color: beige;
+.playbill {
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
-section aside {
-    font-family: "Comic Sans MS";
+/* target the element with id equal to "play1" */
+#play1 {
+    background-color: rosybrown;
+    border: 2px solid #8d5152;
 }
 
-section#play2 h1 {
-    color: sandybrown;
+#play2 {
+    background-color: #9dbc8f;
+    border: 2px solid #518d53;
 }
 
-section.playbill {
-    border-top: 2px solid gray;
+#play3 {
+    background-color: #8fa0bc;
+    border: 2px solid #57518d;
 }
+
+#play4 {
+    background-color: #dfcd24;
+    border: 2px solid #b6a918;
+}
+
+p.play-description {
+    font-size: 1.1em;
+    font-family: "Bookman Old Style", serif;
+}
+
+p.highlight {
+    color: white;
+}
+
+p.favorite {
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    display: inline;
+    border: 1px solid #8e8e8e;
+    background-color: #c2c2c2;
+    border-radius: 2px;
+    padding: 6px;
+    margin-right: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #435858;
+}
+
+li.summary:hover {
+    background-color: #ffe12a;
+}
+
+li.tickets:hover {
+    background-color: #55ff2a;
+}
+
+li.cast-staff:hover {
+    background-color: #ff432a;
+}
+
+li.news-reviews:hover {
+    background-color: #2abfff;
+}
+
+li.notes:hover {
+    background-color: #f42aff;
+}
+
+
+
+
+
+
 
