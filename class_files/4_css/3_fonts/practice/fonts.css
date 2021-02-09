@@ -1,1 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin&display=swap');
 
+/* try to use sans-serifs with bulk text (paragraphs) */
+body {
+    font-family: 'Libre Franklin', sans-serif;
+}
+
+/* try to use serifs with headers */
+h1 {
+    font-family: 'Libre Baskerville', serif;
+}

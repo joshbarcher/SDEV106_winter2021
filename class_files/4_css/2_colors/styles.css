@@ -1,7 +1,7 @@
 /* some preexisting styles to make the page
    easier to look at... */
 * {
-    padding: 10px;
+    paddign: 10px;
     margin: 0;
 }
 
@@ -9,9 +9,13 @@ li {
     list-style: none;
 }
 
+img {
+    width: 90%;
+}
+
 /* your style definitions go here... */
 body {
-    background-color: #e38966
+    background-color: #e38966;
 }
 
 section {

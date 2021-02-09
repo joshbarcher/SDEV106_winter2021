@@ -1,15 +1,28 @@
 /* regular size */
 article {
-    font-size: 1em;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Coda Caption';
 }
 
 /* double size */
 footer {
-    font-size: 2em;
+    font-size: 2rem;
 }
 
 /* half size */
 span {
-    font-size: 0.5em;
+    font-size: 0.5rem;
 }
 
+strong {
+    color: orange;
+    font-weight: normal;
+    font-family: 'Potta One';
+}
+
+em {
+    font-style: normal;
+    color:  darkred;
+    text-decoration: underline;
+}
