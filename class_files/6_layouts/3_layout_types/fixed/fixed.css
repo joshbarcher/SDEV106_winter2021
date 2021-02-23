@@ -4,8 +4,8 @@ html {
 
 body {
     background-color: #b3e9eb;
-    width: 960px;
-    margin: 0 auto;
+    width: 1000px; /* this is a fixed layout */
+    margin: 0 auto; /* center the body element on the page */
 }
 
 header, footer {
@@ -13,5 +13,8 @@ header, footer {
 }
 
 article p {
-
+    display: block;
+    width: 900px;
+    margin: 10px auto;
+    text-align: justify;
 }

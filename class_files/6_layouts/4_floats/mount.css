@@ -1,9 +1,16 @@
+html {
+    background-color: white;
+}
+
 body {
     font-size: 0.8em;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.5em;
 }
 
 img {
-    width: 150px;
+    width: 450px;
     margin: 6px;
 }
 
@@ -21,7 +28,7 @@ h2 {
 
 div {
     padding: 4px;
-    margin: 4px;
+    margin: 14px;
     background-color: #87bcbe;
     border: 2px solid black;
 }
@@ -31,6 +38,53 @@ article {
 }
 
 img {
-    width: 100px;
-    margin: 6px;
+    float: left;
 }
+
+img#explorers, img#visitors {
+    float: right;
+}
+
+p {
+    margin: 10px 0;
+}
+
+p:nth-of-type(2) {
+    /*clear: right;*/
+}
+
+ul {
+    border: 2px solid #010148;
+    padding: 8px;
+    margin: 8px;
+    float: right;
+}
+
+a:link, a:visited {
+    color: #e1f4f4;
+}
+
+a:hover, a:active {
+    color: #f5ffff;
+}
+
+div#tribal-history p {
+    float: left;
+}
+
+/* this is the clear-fix "hack", it adds content
+   to the end of our divs, below our floats
+ */
+div::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+
+
+
+
+
+
+

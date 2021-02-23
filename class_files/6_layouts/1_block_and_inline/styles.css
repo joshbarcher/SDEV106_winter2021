@@ -15,6 +15,11 @@ p {
 }
 
 span {
+    /*display: none;*/
+    /*visibility: hidden;*/
     background: white;
     border: 1px solid black;
+    padding: 10px;
+    width: 100px;
+    margin: 5px;
 }

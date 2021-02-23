@@ -14,61 +14,86 @@ div {
     width: 300px;
 }
 
-#div1 h1 {
+main {
+    background-color: lightgrey;
+    width: 90%;
+    margin: 0 auto;
+
+    /* turn the main into a "flexbox" */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    /* justify elements along the main axis */
+    justify-content: flex-end;
+
+    /* align elements along the cross axis */
+    align-content: stretch;
+
+    /* align elements within a row */
+    align-items: center;
+
+    height: 800px;
+}
+
+.div1 h1 {
     background-color: rgb(88, 87, 255);
     color: rgb(241, 255, 241);
 }
 
-#div1 {
+.div1 {
     background-color: rgb(158, 158, 255);
+    /*flex-basis: 300px;
+    flex-grow: 1;*/
+    /*flex-grow: 3;*/
 }
 
-#div2 h1 {
+.div2 h1 {
     background-color: rgb(128, 128, 0);
     color: rgb(241, 255, 241);
 }
 
-#div2 {
+.div2 {
     background-color: rgb(228, 228, 30);
 }
 
-#div3 h1 {
+.div3 h1 {
     background-color: rgb(207, 66, 207);
     color: rgb(241, 255, 241);
 }
 
-#div3 {
+.div3 {
     background-color: rgb(232, 156, 232);
 }
 
-#div4 h1 {
+.div4 h1 {
     background-color: rgb(103, 160, 103);
     color: rgb(241, 255, 241);
 }
 
-#div4 {
+.div4 {
     background-color: rgb(172, 204, 172);
 }
 
-#div4 h1 {
+.div4 h1 {
     background-color: rgb(103, 160, 103);
     color: rgb(241, 255, 241);
 }
 
-#div5 {
+.div5 {
     background-color: rgb(191, 191, 191);
 }
 
-#div5 h1 {
+.div5 h1 {
     background-color: rgb(101, 101, 101);
     color: rgb(241, 255, 241);
 }
 
-#div6 {
+.div6 {
     background-color: rgb(207,147,167);
 }
 
-#div6 h1 {
+.div6 h1 {
     background-color: rgb(115,3,5);
     color: rgb(241, 255, 241);
 }

@@ -10,3 +10,13 @@ img {
     border-radius: 5px;
     width: 150px;
 }
+
+/* general sibling selector */
+#favorites img ~ img {
+    border: 5px solid black;
+}
+
+/* adjacent sibling selector */
+img#fluffy + img {
+    border: 5px solid black;
+}

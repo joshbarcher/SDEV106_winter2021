@@ -5,7 +5,7 @@ p {
 }
 
 p {
-    color: darkmagenta;
+    color: #8b008b;
 }
 
 p {
@@ -15,7 +15,6 @@ p {
 /* the selectors can vary, but the rules
    remain the same */
 
-/*
 p {
     color: #0066ee;
 }
@@ -26,4 +25,16 @@ body p {
 
 p#main {
     color: darkgreen;
-}*/
+}
+
+body {
+    background-color: beige;
+    font-family: "Bookman Old Style", serif;
+    margin: 30px;
+    border: 1px solid black;
+}
+
+* {
+    margin: 30px;
+    border: 1px solid black;
+}

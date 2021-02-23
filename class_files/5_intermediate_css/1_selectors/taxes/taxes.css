@@ -7,11 +7,7 @@ a:visited {
     color: #972e4c;
 }
 
-a:hover {
-    color: #ff72b9;
-}
-
-a:active {
+a:hover, a:active {
     color: #ff2440;
 }
 
