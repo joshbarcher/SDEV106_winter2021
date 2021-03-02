@@ -20,11 +20,17 @@ h1 {
     background-color: #74c9f0;
     border: 2px solid black;
     padding: 4px 8px;
+    position: relative;
+    top: 100px;
+    left: 250px;
 }
 
 p {
     background-color: #f0c474;
     border: 2px solid black;
     padding: 4px 8px;
+    position: relative;
+    top: 450px;
+    right: 370px;
 }
 

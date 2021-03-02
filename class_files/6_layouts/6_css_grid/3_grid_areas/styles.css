@@ -32,38 +32,44 @@ article, header, footer, aside {
     padding: 10px;
 }
 
-.container {
-
+div.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "head  head  head  head "
+                         "jewel jewel clock clock"
+                         "cloth furn  book  book "
+                         "aside aside book  book "
+                         "foot  foot  .     .    ";
 }
 
 header {
-
+    grid-area: head;
 }
 
 article#jewelry {
-
+    grid-area: jewel;
 }
 
 article#clocks {
-
+    grid-area: clock;
 }
 
 article#clothes {
-
+    grid-area: cloth;
 }
 
 article#furniture {
-
+    grid-area: furn;
 }
 
 article#books {
-
-}
-
-footer {
-
+    grid-area: book;
 }
 
 aside {
+    grid-area: aside;
+}
 
+footer {
+    grid-area: foot;
 }
