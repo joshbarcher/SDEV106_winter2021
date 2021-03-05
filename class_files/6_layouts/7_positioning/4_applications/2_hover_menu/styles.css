@@ -75,14 +75,18 @@ footer a {
 
 /* hover menus */
 .menu {
-
+    /* I want to place .submenu lists next to their parent */
+    position: relative;
 }
 
 .submenu {
+    display: none;
     background-color: black;
     width: 150px;
+    position: absolute;
+    top: 50px;
 }
 
 .menu:hover .submenu {
-
+    display: block;
 }
