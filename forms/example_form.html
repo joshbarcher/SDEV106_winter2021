@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Enter your information!</title>
+    </head>
+    <body>
+        <form>
+            <!-- first, last, middle name -->
+            <div class="form-field">
+                <label for="first">First name: </label>
+                <input type="text" id="first" name="first-name">
+            </div>
+
+            <div class="form-field">
+                <label for="second">Middle initial: </label>
+                <input type="text" id="second" name="middle">
+            </div>
+
+            <div class="form-field">
+                <label for="third">Last name: </label>
+                <input type="text" id="third" name="last-name">
+            </div>
+
+            <!-- gender and age -->
+            <div class="form-field">
+                <fieldset>
+                    <legend>Gender</legend>
+                    <!-- radio buttons share a name if the group is shared -->
+                    <input type="radio" name="gender"><label>Male</label>
+                    <input type="radio" name="gender"><label>Female</label>
+                    <input type="radio" name="gender"><label>Other</label>
+                </fieldset>
+            </div>
+
+            <div class="form-field">
+                <fieldset>
+                    <legend>Hair Color</legend>
+                    <!-- radio buttons share a name if the group is shared -->
+                    <input type="radio" name="hair-color"><label>Green</label>
+                    <input type="radio" name="hair-color"><label>Hazel</label>
+                    <input type="radio" name="hair-color"><label>Brown</label>
+                    <input type="radio" name="hair-color"><label>Blue</label>
+                    <input type="radio" name="hair-color"><label>Black</label>
+                    <input type="radio" name="hair-color"><label>Other</label>
+                </fieldset>
+            </div>
+
+            <!-- hear about us and interest fields -->
+            <div class="form-field">
+                <label>How did you hear about us?</label>
+
+                <input type="checkbox" name="ad" id="advertisement">
+                <label for="advertisement">Advertisement</label>
+                <input type="checkbox" name="friend" id="from-a-friend">
+                <label for="from-a-friend">From a Friend</label>
+                <input type="checkbox" name="social" id="linked-in">
+                <label for="linked-in">Linked In</label>
+            </div>
+
+            <div class="form-field">
+                <label for="interests">What are your interests?</label>
+                <select name="interests" id="interests">
+                    <option value="counseling">Counseling Services</option>
+                    <option value="newsletter">Weekly Newsletter</option>
+                    <option value="jobs">Job Positions</option>
+                </select>
+            </div>
+
+            <button>Submit!</button>
+        </form>
+    </body>
+</html>
