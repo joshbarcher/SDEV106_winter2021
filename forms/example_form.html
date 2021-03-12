@@ -2,24 +2,30 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, initial-scale=1">
+
         <title>Enter your information!</title>
+        <link rel="stylesheet" href="form_styles.css">
     </head>
     <body>
         <form>
             <!-- first, last, middle name -->
-            <div class="form-field">
-                <label for="first">First name: </label>
-                <input type="text" id="first" name="first-name">
-            </div>
+            <div>
+                <div class="form-field">
+                    <label for="first">First name: </label>
+                    <input type="text" id="first" name="first-name">
+                </div>
 
-            <div class="form-field">
-                <label for="second">Middle initial: </label>
-                <input type="text" id="second" name="middle">
-            </div>
+                <div class="form-field">
+                    <label for="second">Middle initial: </label>
+                    <input type="text" id="second" name="middle">
+                </div>
 
-            <div class="form-field">
-                <label for="third">Last name: </label>
-                <input type="text" id="third" name="last-name">
+                <div class="form-field">
+                    <label for="third">Last name: </label>
+                    <input type="text" id="third" name="last-name">
+                </div>
             </div>
 
             <!-- gender and age -->
@@ -27,9 +33,18 @@
                 <fieldset>
                     <legend>Gender</legend>
                     <!-- radio buttons share a name if the group is shared -->
-                    <input type="radio" name="gender"><label>Male</label>
-                    <input type="radio" name="gender"><label>Female</label>
-                    <input type="radio" name="gender"><label>Other</label>
+                    <div class="radio-group">
+                        <input type="radio" name="gender" id="male">
+                        <label for="male">Male</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="gender" id="female">
+                        <label for="female">Female</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="gender" id="other-gender">
+                        <label for="other-gender">Other</label>
+                    </div>
                 </fieldset>
             </div>
 
@@ -37,12 +52,30 @@
                 <fieldset>
                     <legend>Hair Color</legend>
                     <!-- radio buttons share a name if the group is shared -->
-                    <input type="radio" name="hair-color"><label>Green</label>
-                    <input type="radio" name="hair-color"><label>Hazel</label>
-                    <input type="radio" name="hair-color"><label>Brown</label>
-                    <input type="radio" name="hair-color"><label>Blue</label>
-                    <input type="radio" name="hair-color"><label>Black</label>
-                    <input type="radio" name="hair-color"><label>Other</label>
+                    <div class="radio-group">
+                        <input type="radio" name="hair-color" id="green">
+                        <label for="green">Green</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="hair-color" id="hazel">
+                        <label for="hazel">Hazel</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="hair-color" id="brown">
+                        <label for="brown">Brown</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="hair-color" id="blue">
+                        <label for="blue">Blue</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="hair-color" id="black">
+                        <label for="black">Black</label>
+                    </div>
+                    <div class="radio-group">
+                        <input type="radio" name="hair-color" id="other-color">
+                        <label for="other-color">Other</label>
+                    </div>
                 </fieldset>
             </div>
 
